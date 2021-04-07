@@ -25,6 +25,8 @@ A multi object detect and track Library Based on tensorrt
 
 [[Baidu]](https://pan.baidu.com/s/1iYL3iV_qzJaE3GXn1S4NNg)  key: 6yc6
 
+Download the model and put it to /weight/
+
 ## Video Demo
 <img src="assets/demo.gif" width="800"/>
 
