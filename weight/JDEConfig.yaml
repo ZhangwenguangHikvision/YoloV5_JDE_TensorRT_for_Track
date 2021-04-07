@@ -1,0 +1,4 @@
+%YAML:1.0
+---
+trt_path: "../../weight/yolov5l_int8.engine"
+

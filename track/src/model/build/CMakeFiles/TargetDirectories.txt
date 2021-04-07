@@ -1,0 +1,4 @@
+/home/ubuntu/workspace/Gitwork/detect_and_track/track/src/model/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/workspace/Gitwork/detect_and_track/track/src/model/build/CMakeFiles/demo.dir
+/home/ubuntu/workspace/Gitwork/detect_and_track/track/src/model/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/workspace/Gitwork/detect_and_track/track/src/model/build/CMakeFiles/yolov5_jde.dir
