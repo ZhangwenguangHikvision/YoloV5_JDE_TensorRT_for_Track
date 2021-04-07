@@ -14,14 +14,15 @@ A multi object detect and track Library Based on tensorrt
 * (Optional) ffmpeg (used in the video demo)
 
 ##How to build and run
-1.modify track/CMakeLists.txt Change opencv and tensorRT to your local directory
-2.modify demo/CMakeLists.txt Change opencv and tensorRT to your local directory
-3.modify demo/src/main.cpp Change video path to your local directory
-4.sh make.sh
-5.cd demo/build
-6../itest
+* modify track/CMakeLists.txt Change opencv and tensorRT to your local directory
+* modify demo/CMakeLists.txt Change opencv and tensorRT to your local directory
+* modify demo/src/main.cpp Change video path to your local directory
+* sh make.sh
+* cd demo/build
+* ./itest
 
 ##Model
+
 [[Baidu]](https://pan.baidu.com/s/1iYL3iV_qzJaE3GXn1S4NNg)  key: 6yc6
 
 ## Video Demo
