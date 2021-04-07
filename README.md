@@ -5,6 +5,9 @@ A multi object detect and track Library Based on tensorrt
 
 一个基于TensorRT的多目标检测和跟踪融合算法库，可以同时支持行人的多目标检测和跟踪，当然也可以仅仅当检测库使用。
 
+本算法的主框架采用了JDE+deepsort结构，其中由JDE算法检测出人的坐标与其对应的外观特帧，然后基于deepsort的方法进行目标与运动轨迹的匹配。
+JDE中的检测框架采用YOLOV5 L 的模型结构。
+
 ## Requirements
 * ubuntu 18.04 for x86
 * gcc/g++ >= 7.5.0  
