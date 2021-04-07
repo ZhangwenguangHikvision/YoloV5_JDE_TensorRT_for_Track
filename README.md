@@ -30,4 +30,5 @@ Download the model and put it to /weight/
 ## Video Demo
 <img src="assets/demo.gif" width="800"/>
 
-
+## Acknowledgement
+A large portion of code is borrowed from [wang-xinyu/tensorrtx](https://github.com/wang-xinyu/tensorrtx) and [sephirothhua/DeepSort_yoloV3-HOG_feature](https://github.com/sephirothhua/DeepSort_yoloV3-HOG_feature) and , many thanks to their wonderful work!
