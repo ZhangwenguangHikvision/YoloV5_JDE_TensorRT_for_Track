@@ -30,8 +30,20 @@ JDE中的检测框架则采用了YOLOV5 L 的模型结构。
 * cd demo/build
 * ./itest
 
-## Model
+## How to convert to tensort gie file
+* cd PytorchToTensorRTGIE
+* modify CMakeLists.txt Change opencv and tensorRT to your local directory
+* download jde.wts file
+* cd build
+* cmake ..
+* make
+* ./yolov5 -s
 
+## Model
+* TensorRT GIE  Model File:
+[[Baidu]](https://pan.baidu.com/s/1iYL3iV_qzJaE3GXn1S4NNg)  key: 6yc6
+
+* .wts File:
 [[Baidu]](https://pan.baidu.com/s/1iYL3iV_qzJaE3GXn1S4NNg)  key: 6yc6
 
 Download the model and put it to /weight/
