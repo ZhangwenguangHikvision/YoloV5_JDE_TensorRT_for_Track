@@ -41,11 +41,11 @@ JDE中的检测框架则采用了YOLOV5 L 的模型结构。
 
 ## Model
 * TensorRT GIE  Model File:
-[[Baidu]](https://pan.baidu.com/s/1iYL3iV_qzJaE3GXn1S4NNg)  key: 6yc6
+[[Baidu]](https://pan.baidu.com/s/1iYL3iV_qzJaE3GXn1S4NNg)  key: 6yc6. 
 Download the model and put it to /weight/
 
 * .wts File:
-[[Baidu]](链接：https://pan.baidu.com/s/1dMxW02AnsB5AS-1ecGH_5A)  key: bliv
+[[Baidu]](链接：https://pan.baidu.com/s/1dMxW02AnsB5AS-1ecGH_5A)  key: bliv. 
 Download the model and put it to /PytorchToTensorRTGIE/
 
 ## Video Demo
