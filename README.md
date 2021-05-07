@@ -8,6 +8,8 @@ A multi object detect and track Library Based on tensorrt
 本算法的主框架采用了JDE+deepsort结构，其中由JDE算法检测出人的坐标与其对应的外观特征，然后基于deepsort的方法进行目标与运动轨迹的匹配。
 JDE中的检测框架则采用了YOLOV5 L 的模型结构。
 
+CSTrack3_0.yaml为本网络的模型结构，模型训练的代码大部分借鉴了CSTrack原文作者的开源项目，这里不再开源，大家有兴趣可以阅读CSTrack论文。
+
 ## Reference
 * JDE: https://arxiv.org/pdf/1909.12605v1.pdf
 * CSTrack: https://arxiv.org/pdf/2010.12138.pdf
@@ -38,6 +40,7 @@ JDE中的检测框架则采用了YOLOV5 L 的模型结构。
 * cmake ..
 * make
 * ./yolov5 -s
+* ./yolov5 -d ../sample/              ##Verify detect results
 
 ## Model
 * TensorRT GIE  Model File:
