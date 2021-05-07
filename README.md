@@ -40,7 +40,7 @@ CSTrack3_0.yaml为本网络的模型结构，模型训练的代码大部分借�
 * cmake ..
 * make
 * ./yolov5 -s
-#Verify detect results
+* #Verify detect results
 * ./yolov5 -d ../sample/              
 
 ## Model
