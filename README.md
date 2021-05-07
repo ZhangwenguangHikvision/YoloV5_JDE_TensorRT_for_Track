@@ -46,7 +46,7 @@ JDE中的检测框架则采用了YOLOV5 L 的模型结构。
 Download the model and put it to /weight/
 
 * .wts File:
-[[Baidu]](https://pan.baidu.com/s/1dMxW02AnsB5AS-1ecGH_5A)  key: bliv. 
+[[Baidu]](https://pan.baidu.com/s/1KCp8og13vPYad9OqOCvN3w)  key: c30n. 
 
 Download the model and put it to /PytorchToTensorRTGIE/
 
