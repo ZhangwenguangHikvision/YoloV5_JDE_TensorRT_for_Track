@@ -9,6 +9,8 @@ A multi object detect and track Library Based on tensorrt
 JDE中的检测框架则采用了YOLOV5 L 的模型结构。
 
 CSTrack3_0.yaml为本网络的模型结构，模型训练的代码大部分借鉴了CSTrack原文作者的开源项目，这里不再开源，大家有兴趣可以阅读CSTrack论文。
+需要注意的是，本项目由于追求速度将CStrack的CCN和SAAN模块改成了JDE模块，也就是直接在anchor上提取reid特征并没有进行detect和reid的解耦模块。
+如果读者需要的话可以自行修改，这样可以提升IDswich方面的性能。
 
 ## Reference
 * JDE: https://arxiv.org/pdf/1909.12605v1.pdf
