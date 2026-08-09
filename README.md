@@ -1,3 +1,5 @@
+
+
 # YoloV5_JDE_TensorRT_for_Track
 
 ## Introduction
@@ -34,7 +36,7 @@ CSTrack3_0.yaml为本网络的模型结构，模型训练的代码大部分借�
 * cd demo/build
 * ./itest
 
-## How to convert to tensort gie file
+## How to convert to TensorRT GIE file
 * cd PytorchToTensorRTGIE
 * modify CMakeLists.txt Change opencv and tensorRT to your local directory
 * download jde.wts file
